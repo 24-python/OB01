@@ -1,9 +1,13 @@
 class Warrior():
+
+    # ЗАДАНИЕ СВОЙСТВ КЛАССА "ВОИН"
+
     def __init__(self, name, power, endurance, hair_color):
         self.name = name
         self.power = power
         self.endurance = endurance
         self.hair_color = hair_color
+    # ЗАДАНИЕ МЕТОДОВ КЛАССА "ВОИН"
 
     def sleep(self):
         print(f"{self.name} лег спать")
